@@ -1,6 +1,7 @@
+import Header from '../../components/Header';
 function Home(){
     return(
-        <h1>capputeeno</h1>
+        <Header />
     )
 };
 export default Home;
