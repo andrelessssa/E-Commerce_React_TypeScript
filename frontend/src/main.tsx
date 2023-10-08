@@ -1,13 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Home from './pages/Home'
 import GlobalStyles from './globalStyles/globalStyles'
+import Header from "./components/Header"
+import AppRouta from './routes'
 
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <GlobalStyles/>
-    <Home />
+    <Header/>
+    <AppRouta />
   </React.StrictMode>,
 )
