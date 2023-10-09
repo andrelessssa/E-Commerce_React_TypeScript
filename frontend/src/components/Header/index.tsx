@@ -1,29 +1,28 @@
-import { TopHeader } from "./styles";
-import grupo2 from "./Group2.svg";
+import { TopHeader, Notifica, Geral, Caixa, Circulo } from "./styles";
+import carrinho from "./carrinho.svg";
 
 export default function index() {
   return (
     <TopHeader>
       <a href="/">capputeeno</a>
-      
-
-      <div className="geral">
-        <div className="Caixa">
+  
+      <Geral>
+        <Caixa>
           <input
             type="search"
             placeholder="Procurando por algo específico?"
           ></input>
           <i className="fa fa-search"></i>
-        </div>
+        </Caixa>
 
-        <div className="notifica">
-          <img src={grupo2} />
-
-          <div className="circulo">
+        <Notifica>
+          <img src={carrinho} />
+          <Circulo>
             <p>2</p>
-          </div>
-        </div>
-      </div>
+          </Circulo>
+        </Notifica>
+        
+      </Geral>
     </TopHeader>
   );
 }
