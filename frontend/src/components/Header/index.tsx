@@ -21,6 +21,10 @@ export default function index() {
             <p>2</p>
           </Circulo>
         </Notifica>
+
+
+
+        
         
       </Geral>
     </TopHeader>
