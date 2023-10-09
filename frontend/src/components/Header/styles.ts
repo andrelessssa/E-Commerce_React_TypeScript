@@ -12,6 +12,7 @@ export const TopHeader = styled.div`
         font-family: 'Saira Stencil One', cursive;
         font-size: 40px;
         margin-left: 160px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
     }
     input{
         width: 206px;
@@ -53,28 +54,29 @@ export const TopHeader = styled.div`
 export const Notifica = styled.div`
         display: flex;
         align-items: center;
+        position: relative;
 `;
 export const Circulo = styled.div`
-        width: 22px;
-        height: 22px;
+        width: 19px;
+        height: 19px;
         flex-shrink: 0;
         background:  #DE3838;
         border-radius: 12px;
         justify-content: center;
         display: flex;
-        margin-top: 23px;
-    
+        position: absolute;
+        right: -6px;
+        bottom: 0;
+        align-items: center;
         
-    
     p{
-        color: #FFFFFF;
-       
+        color: #FFF;
         text-align: center;
         font-family: Saira;
         font-size: 10px;
         font-style: normal;
         font-weight: 500;
-        line-height: 26px;
+        line-height: 26px; 
     }
 `;
 

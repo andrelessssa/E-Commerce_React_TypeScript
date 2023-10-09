@@ -1,5 +1,4 @@
 import { TopHeader, Notifica, Geral, Caixa, Circulo } from "./styles";
-import carrinho from "./carrinho.svg";
 
 export default function index() {
   return (
@@ -12,19 +11,15 @@ export default function index() {
             type="search"
             placeholder="Procurando por algo específico?"
           ></input>
-          <i className="fa fa-search"></i>
+          <i className="fa fa-search"> </i>
         </Caixa>
 
         <Notifica>
-          <img src={carrinho} />
+          <img src="/assets/carrinho.svg" />
           <Circulo>
             <p>2</p>
           </Circulo>
         </Notifica>
-
-
-
-        
         
       </Geral>
     </TopHeader>
