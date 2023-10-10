@@ -15,11 +15,11 @@ export const TopHeader = styled.div`
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
     }
     input{
-        width: 206px;
+        width: 208px;
         height: 22px;
         text-align: center;
         font-family: Saira;
-        font-size: 13px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 400;
         line-height: 22px; 
