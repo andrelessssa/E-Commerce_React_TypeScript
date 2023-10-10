@@ -1,10 +1,14 @@
-import React from 'react'
+
 
 type Props = {}
 
 function index({}: Props) {
   return (
-    <div>index</div>
+    <div>
+      <ul>
+        <li>{}</li>
+      </ul>
+    </div>
   )
 }
 
