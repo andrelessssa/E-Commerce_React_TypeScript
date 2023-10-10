@@ -2,6 +2,7 @@ import { TopHeader, Notifica, Geral, Caixa, Circulo } from "./styles";
 
 export default function index() {
   return (
+  
     <TopHeader>
       <a href="/">capputeeno</a>
   
@@ -23,5 +24,7 @@ export default function index() {
         
       </Geral>
     </TopHeader>
+
+
   );
 }

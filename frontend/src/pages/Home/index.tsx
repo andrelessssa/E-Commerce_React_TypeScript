@@ -1,17 +1,14 @@
-
+import Links from "../../components/Links";
+import Card from "../../components/Card"
 
 
 function Home(){
-    
     return(
-        <div>
-            <ul>
-                <li>Todos os produtos</li>
-                <li>Camisetas</li>
-                <li>Canecas</li>
-            </ul>
-        </div>
-        
+        <>
+        <Links/>
+        <Card/>
+        </>
     )
+   
 };
 export default Home;
