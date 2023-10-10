@@ -21,21 +21,26 @@ export const CaixaTexto = styled.div`
     border-radius: 0px 0px 4px 4px;
     background: rgba(255, 255, 255, 0.40);
     backdrop-filter: blur(10px);
-    margin-left: 12px;
+    padding-left: 12px;
+    padding-top: 8px;
+    margin-top: -6px;
+    
 
     .descricao{
-        width: 232px;
+        width: 220px;
+        height: 18px;
         color: #41414D;
         font-family: Saira;
         font-size: 16px;
         font-style: normal;
         font-weight: 300;
-        line-height: 150%; 
+        line-height: 150%;
+       
     }
     .preco{
         display: flex;
         width: 232px;
-        height: 21px;
+        height: 20px;
         flex-direction: column;
         justify-content: center;
         flex-shrink: 0;
@@ -45,6 +50,8 @@ export const CaixaTexto = styled.div`
         font-style: normal;
         font-weight: 600;
         line-height: 150%;
+       
+        
     } 
     
 `;
