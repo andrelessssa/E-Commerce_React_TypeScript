@@ -12,7 +12,11 @@ export const TopHeader = styled.div`
         font-family: 'Saira Stencil One', cursive;
         font-size: 40px;
         margin-left: 160px;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        color: #5D5D6D;
+        font-style: normal;
+        font-weight: 400;
+        text-decoration: none;
+
     }
     input{
         width: 208px;
