@@ -8,11 +8,13 @@ export default createGlobalStyle`
         font-family: 'Saira', sans-serif;
         font-weight: 400;
         color: #0C1932;
+
         
 
     }
     body{
         background-color: #F0F0F5;
+        width: 100vw;
     }
 
 `;

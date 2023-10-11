@@ -1,8 +1,8 @@
 import styled  from "styled-components";
 
 export const Caixa = styled.section`
-    margin-top: 80px;
-    margin-left: 160px;
+    margin: 20px;
+   
     
     
     img{
@@ -10,7 +10,7 @@ export const Caixa = styled.section`
         height: 300px;
         flex-shrink: 0;
         border-radius: 4px 4px 0px 0px;
-        
+        object-fit: cover;
 
     }   
 `;
@@ -53,5 +53,13 @@ export const CaixaTexto = styled.div`
        
         
     } 
+   
     
+`;
+export const ProductList = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 60px;
 `;
