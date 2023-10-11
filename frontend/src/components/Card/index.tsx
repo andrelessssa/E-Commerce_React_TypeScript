@@ -1,5 +1,9 @@
 import { Caixa, CaixaTexto } from "./styles";
 interface Product { image: string, name: string, price: string } 
+
+
+
+
 function index( { image, name, price }: Product ) {
   return(
         <Caixa>

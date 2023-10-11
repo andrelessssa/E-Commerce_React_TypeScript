@@ -6,10 +6,14 @@ import AppRouta from './routes'
 
 
 
+
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
+    
     <GlobalStyles/>
     <Header/>
     <AppRouta />
+   
   </React.StrictMode>,
 )
