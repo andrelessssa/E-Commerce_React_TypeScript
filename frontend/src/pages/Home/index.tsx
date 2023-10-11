@@ -6,7 +6,7 @@ function Home(){
     return(
         <>
         <Links/>
-        <Card/>
+        <Card name="caneca" image="https://storage.googleapis.com/xesque-dev/challenge-images/caneca-06.jpg" price="R$ 40,00" />
         </>
     )
    
